@@ -1,0 +1,11 @@
+mkdir kickstart-updated
+
+cd kickstart-updated
+
+npm init -y
+
+npm install solc@0.8.9 web3 mocha ganache @truffle/hdwallet-provider fs-extra
+
+npm install next react react-dom semantic-ui-css semantic-ui-react
+
+npm install next-routes --legacy-peer-deps
